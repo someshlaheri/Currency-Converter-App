@@ -1,0 +1,18 @@
+.heading {
+    text-align: center;
+    border-radius: 70px 70px 0 0;
+    height: 4rem;
+    padding-top: 0.8em;
+    font-size: 1.2rem;
+    font-family: 'Fraunces', serif;
+}
+
+h2 {
+    color: hsl(212, 21%, 14%);
+}
+
+h2:hover {
+    color: white;
+    text-shadow: 0 0 10px rgb(218, 50, 50);
+    transition: 0.2s;
+}

@@ -1,0 +1,11 @@
+.container {
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(243, 167, 167);
+    height: 25rem;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 70px;
+    border: 2px hsl(0, 0%, 100%) solid;
+    box-shadow: 6px 7px 8px 6px rgb(207, 207, 207);
+}

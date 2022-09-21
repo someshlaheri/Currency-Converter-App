@@ -1,0 +1,10 @@
+.childContainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: rgb(243, 167, 167);
+    height: 20rem;
+    width: 35rem;
+    border-radius: 0 0 70px 70px;
+}

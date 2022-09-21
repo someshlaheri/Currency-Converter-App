@@ -1,0 +1,21 @@
+.inDiv {
+    height: 100px;
+    width: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 35px;
+}
+
+.inputDiv {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 73px;
+}
+
+.currencyLabel {
+    display: flex;
+    align-self: center;
+    width: 60px;
+}

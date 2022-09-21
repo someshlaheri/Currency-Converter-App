@@ -1,0 +1,147 @@
+.containerExcBtn {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 35em;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.rightHalf {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100px;
+    width: 17.5em;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.exchange {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 17.5em;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-end;
+    margin-left: 63px;
+    margin-right: 10px;
+}
+
+.rateDiv {
+    display: flex;
+    align-items: center;
+}
+
+.excAndWrapDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.flipMain {
+    display: flex;
+    margin-top: 10px;
+    margin-left: -70px;
+}
+
+.btnMain {
+    margin-left: -70px;
+}
+
+.flipResetBtn button {
+    width: 5em;
+    height: 3em;
+    border-radius: 15px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.flipResetBtn2 button {
+    width: 5em;
+    height: 3em;
+    border-radius: 15px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+span {
+    text-transform: capitalize;
+    margin-top: -37px;
+}
+
+#reset {
+    margin-top: 0px;
+}
+
+#reset img {
+    width: 3em;
+    height: 3em;
+    margin-left: -6px;
+}
+
+#flip img {
+    width: 3em;
+    height: 3em;
+    margin-left: -6px;
+}
+
+#flip {
+    margin-top: 0px;
+}
+
+#btn {
+    margin-top: -5px;
+}
+
+.wrapper2 {
+    padding-bottom: 10px;
+    padding-top: -90px;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    margin-left: -10px;
+}
+
+#rate {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.divider1 {
+    position: relative;
+    margin-left: 10px;
+    height: 20px;
+    width: 252px;
+}
+
+.div-transparent1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(255, 255, 255), transparent);
+}
+
+p {
+    text-transform: capitalize;
+    font-size: larger;
+    letter-spacing: 0.1em;
+}
