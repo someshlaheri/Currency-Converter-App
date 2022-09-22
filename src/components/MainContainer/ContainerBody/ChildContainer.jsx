@@ -12,10 +12,7 @@ function ChildContainer() {
         const [code, setCode] = useState({base:'INR',target:'EUR'})
         
         useEffect(() => {
-            convertAmount(() =>{
-                let result = ConvertAPI(code.base, code.target,amount)
-                setCurrency2(result)
-            })
+            convertAmount();
         // eslint-disable-next-line react-hooks/exhaustive-deps
         },[])
 
