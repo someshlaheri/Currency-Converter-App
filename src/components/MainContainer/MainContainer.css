@@ -10,7 +10,7 @@
     box-shadow: 6px 7px 8px 6px rgb(207, 207, 207);
 }
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:700px) {
     .container {
         height: 27rem;
         width: 320px;

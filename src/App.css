@@ -76,7 +76,7 @@ p {
     font-weight: 575;
 }
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:700px) {
     input {
         width: 150px;
     }

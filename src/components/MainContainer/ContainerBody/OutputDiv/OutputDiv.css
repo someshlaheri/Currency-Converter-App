@@ -22,7 +22,7 @@
     width: 60px;
 }
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:700px) {
     .outDiv {
         width: 310px;
         align-self: center;
