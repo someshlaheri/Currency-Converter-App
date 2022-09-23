@@ -20,7 +20,7 @@
     width: 60px;
 }
 
-@media screen and (max-width:601px) {
+@media screen and (max-width:391px) {
     .inDiv {
         width: 310px;
         align-self: center;

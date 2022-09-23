@@ -17,7 +17,7 @@ h2:hover {
     transition: 0.2s;
 }
 
-@media screen and (max-width:601px) {
+@media screen and (max-width:391px) {
     .heading {
         padding-top: 0.4em;
         font-size: 1rem;
