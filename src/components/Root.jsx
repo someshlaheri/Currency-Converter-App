@@ -1,11 +1,13 @@
 import React from 'react'
 import MainContainer from './MainContainer/MainContainer'
 
+
 const Root = () => {
+  
   return (
-    <>
-    <MainContainer/>
-    </>
+    <div className='rootDiv'>
+      <MainContainer/>
+    </div>
   )
 }
 

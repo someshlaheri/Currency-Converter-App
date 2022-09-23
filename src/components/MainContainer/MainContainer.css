@@ -10,9 +10,141 @@
     box-shadow: 6px 7px 8px 6px rgb(207, 207, 207);
 }
 
+.aboutDiv {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.wrapper {
+    margin-top: -10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a .button {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+a .button:hover {
+    width: 140px;
+}
+
+a .button .icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+
+.facebook .button:hover .icon {
+    background: #17A9FD;
+}
+
+.twitter .button:hover .icon {
+    background: #00acee;
+}
+
+.instagram .button:hover .icon {
+    background: #8a3ab9;
+}
+
+.github .button:hover .icon {
+    background: #171515;
+}
+
+.linkedin .button:hover .icon {
+    background: #0072b1;
+}
+
+a .button .icon i {
+    font-size: 15px;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+
+a .button:hover .icon i {
+    color: #fff;
+}
+
+a .button span {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.facebook .button span {
+    color: #17A9FD;
+}
+
+.twitter .button span {
+    color: #00acee;
+}
+
+.instagram .button span {
+    color: #8a3ab9;
+}
+
+.github .button span {
+    color: #171515;
+}
+
+.linkedin .button span {
+    color: #0072b1;
+}
+
 @media screen and (max-width:700px) {
     .container {
         height: 27rem;
         width: 320px;
+    }
+    .aboutDiv {
+        width: 300px;
+    }
+    .aboutDiv p {
+        font-size: 12px;
+    }
+    a .button {
+        height: 30px;
+        width: 30px;
+        margin: 0 4px;
+    }
+    a .button:hover {
+        width: 105px;
+    }
+    a .button .icon {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    a .button .icon i {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    a .button span {
+        font-size: 12px;
+        line-height: 30px;
+        margin-left: 5px;
+        transition: all 0.3s ease-out;
     }
 }

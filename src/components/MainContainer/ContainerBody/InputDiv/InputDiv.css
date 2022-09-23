@@ -25,10 +25,10 @@
         width: 310px;
         align-self: center;
         justify-content: center;
-        margin-left: 50px;
+        margin-left: 65px;
     }
     .inputDiv {
         margin-left: 0px;
-        justify-content: center;
+        justify-content: right;
     }
 }

@@ -165,19 +165,19 @@ p {
         margin-right: 0px;
     }
     .flipMain {
-        margin-top: 5px;
-        margin-left: -70px;
-    }
-    .flipMain {
-        margin-left: 0px;
+        margin-top: 10px;
+        margin-left: -10px;
     }
     .btnMain {
-        margin-left: 0px;
+        margin-left: -10px;
     }
     .buttonDivRight {
         margin-left: -10px;
     }
     .rateDiv {
         margin-top: -50px;
+    }
+    p {
+        font-size: large;
     }
 }
