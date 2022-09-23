@@ -19,3 +19,16 @@
     align-self: center;
     width: 60px;
 }
+
+@media screen and (max-width:601px) {
+    .inDiv {
+        width: 310px;
+        align-self: center;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .inputDiv {
+        margin-left: 0px;
+        justify-content: center;
+    }
+}

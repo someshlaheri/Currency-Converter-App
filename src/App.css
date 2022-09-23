@@ -75,3 +75,9 @@ label {
 p {
     font-weight: 575;
 }
+
+@media screen and (max-width:601px) {
+    input {
+        width: 150px;
+    }
+}

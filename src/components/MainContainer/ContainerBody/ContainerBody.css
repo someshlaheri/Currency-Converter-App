@@ -8,3 +8,11 @@
     width: 35rem;
     border-radius: 0 0 70px 70px;
 }
+
+@media screen and (max-width:601px) {
+    .childContainer {
+        height: 21rem;
+        width: 310px;
+        margin-top: -10px;
+    }
+}

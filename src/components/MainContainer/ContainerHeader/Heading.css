@@ -16,3 +16,10 @@ h2:hover {
     text-shadow: 0 0 10px rgb(218, 50, 50);
     transition: 0.2s;
 }
+
+@media screen and (max-width:601px) {
+    .heading {
+        padding-top: 0.4em;
+        font-size: 1rem;
+    }
+}

@@ -21,3 +21,12 @@
     position: static;
     width: 60px;
 }
+
+@media screen and (max-width:601px) {
+    .outDiv {
+        width: 310px;
+        align-self: center;
+        justify-content: center;
+        margin-left: -25px;
+    }
+}

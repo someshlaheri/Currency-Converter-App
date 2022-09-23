@@ -145,3 +145,39 @@ p {
     font-size: larger;
     letter-spacing: 0.1em;
 }
+
+@media screen and (max-width:601px) {
+    .containerExcBtn {
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 200px;
+        width: 20em;
+    }
+    .exchange {
+        height: 90px;
+        width: 20em;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .buttonDivRight {
+        width: 20em;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .flipMain {
+        margin-top: 5px;
+        margin-left: -70px;
+    }
+    .flipMain {
+        margin-left: 0px;
+    }
+    .btnMain {
+        margin-left: 0px;
+    }
+    .buttonDivRight {
+        margin-left: -10px;
+    }
+    .rateDiv {
+        margin-top: -50px;
+    }
+}
